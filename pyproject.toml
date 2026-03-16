@@ -1,0 +1,16 @@
+[project]
+name = "agent-foundation"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "python-dotenv",
+    "uvicorn",
+]
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
